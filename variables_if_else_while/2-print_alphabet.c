@@ -1,17 +1,20 @@
 #include <stdio.h>
 
 /**
- *Write a program that prints the alphabet in lowercase, followed by a new line.
+ * main – Affiche l'alphabet en minuscules
  *
- *return 0
+ * Retour : Toujours 0
  */
 int main(void)
 {
-    char letter;
-
-    letter = 'a';
-    while = 'z');
-    punchar('a' 'z'\n);
+  char letter;
+  letter = 'a';
+  while (letter <= 'z')
+    {
+      putchar(letter);
+      letter++;
+    }
+  putchar('\n');
 
     return (0);
 }
