@@ -1,3 +1,3 @@
 C - Functions, Nested Loops
 
-Learning C functions and nested loops to improve my programming skills and logical thinking.
+Learning about functions and nested loops in C to improve my programming skills and logical thinking.
