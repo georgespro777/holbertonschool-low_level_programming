@@ -13,8 +13,7 @@ int print_sign(int n)
     (c == '0')
   else
     (c => '-1')
-      
-      return (0);
+  return (0);
 }
 
    
