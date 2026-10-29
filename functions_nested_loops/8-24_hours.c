@@ -16,10 +16,12 @@ void jack_bauer(void)
              minute = 0;
             while (minute <= 59)
 	      {
-		_putchar ("heure 23!\n");
+		putchar ("heure / 10!\n");
+		putchar ("heure % 10!\n");
 	      }
 	    {
-	      _putchar ("minute 59!\n");
+	        putchar ("minute / 10!\n");
+		putchar ("minute % 10!\n");
 	    }
 	    return (0);
       }
