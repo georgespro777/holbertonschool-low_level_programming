@@ -1,18 +1,21 @@
+
 #include "main.h"
 
 /**
- * function - prints the last digit of a number
- * 
- * return 0
+ * print_last_digit - Prints the last digit of a number
+ * @n: The integer to check
+ * Return: The last digit of n
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-  if (n <= 9)
-    {
-      _putchar("affichier le dernier chiffre d'un nombre!\n");
-    }
-  else
-    {
-      retun (0);
-    }
+	int digit;
+
+	digit = n % 10;
+	if (digit < 0)
+	{
+		digit = -digit;
+	}
+	_putchar(digit + '0');
+	return (digit);
 }
+
