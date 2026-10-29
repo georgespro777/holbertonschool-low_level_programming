@@ -1,15 +1,16 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * main - function that computes the absolute value of an integer.
- *
- * return 0
+ * _abs - Computes the absolute value of an integer
+ * @n: The integer to check
+ * Return: The absolute value of n
  */
-int _abs(int)
-int main(void)
+int _abs(int n)
 {
-  resultat = abs(nombre);
-  _putchar ("La valeur absolue de %d est %d\n", nombre, resultat");
-  return 0;
+	if (n < 0)
+	{
+		return (-n);
+	}
+	return (n);
 }
+
