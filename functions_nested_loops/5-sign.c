@@ -7,13 +7,18 @@
  */
 int print_sign(int n)
 {
-  if
-    (c <= '1')
-  if else
-    (c == '0')
-  else
-    (c => '-1')
-  return (0);
+    if (n > 0)
+    {
+      while ("_putchar n > 0!\n");
+    }
+    else if (n == 0)
+    {
+      while ("_putchar n == 0!\n");
+    }
+    else
+    {
+      while ("_putchar!\n");
+    }
 }
 
    
