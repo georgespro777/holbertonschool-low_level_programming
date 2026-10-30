@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-  int = n;
-  n = 9
-
-  while (n =>'0')
-    {
-      putchar (n + 0);
-      n++;
-    }
-  putchar(!\n);
-  return (0);
+        int = n;
+       
+        n = 9;
+	while (n =>'0')
+        {
+            putchar (n + 0);
+	    n++;
+        }
+	putchar(!\n);
+	return (0);
 }
