@@ -12,6 +12,6 @@ void times_table(void)
 	n = 10;
 	resultat = n * 9;
 
-	putchar("Resultat : %d\n", resultat);
+	_putchar("Resultat : %d\n", resultat);
 	return (void);
 }
