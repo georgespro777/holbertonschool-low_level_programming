@@ -10,9 +10,9 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 1; i <= 3; i++)
+	for (i = 1; i <= 4; i++)
 	{
-		for (j = 1; j <= 3; j++)
+		for (j = 1; j <= 4; j++)
 		{
 			printf("%d ", i * j);
 		}
@@ -21,4 +21,3 @@ int main(void)
 
 	return (0);
 }
-
