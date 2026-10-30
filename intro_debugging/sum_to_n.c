@@ -2,9 +2,9 @@
 
 /**
  * sum_to_n - calculates the sum from 1 to n
- * @n: number
+ * @n: the limit number
  *
- * Return: the sum
+ * Return: the sum of numbers from 1 to n
  */
 int sum_to_n(int n)
 {
@@ -19,8 +19,14 @@ int sum_to_n(int n)
 	return (sum);
 }
 
+/**
+ * main - prints the sum from 1 to 10
+ *
+ * Return: 0 on success
+ */
 int main(void)
 {
-	printf("%d\n", sum_to_n(5));
+	printf("%d\n", sum_to_n(10));
+
 	return (0);
 }
