@@ -1,3 +1,11 @@
+#include <stdio.h>
+
+/**
+ * sum_to_n - calculates the sum from 1 to n
+ * @n: number
+ *
+ * Return: the sum
+ */
 int sum_to_n(int n)
 {
 	int i;
@@ -7,5 +15,12 @@ int sum_to_n(int n)
 	{
 		sum = sum + i;
 	}
+
 	return (sum);
+}
+
+int main(void)
+{
+	printf("%d\n", sum_to_n(5));
+	return (0);
 }
