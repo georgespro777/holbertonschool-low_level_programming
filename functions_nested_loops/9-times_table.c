@@ -6,12 +6,13 @@
  */
 void times_table(void)
 {
-        int n;
+	int n;
 	int resultat;
 
-	n = 10;
-	resultat = n * 9;
-
-	_putchar("Resultat : %d\n", resultat);
-	return (void);
+	n = 0;
+	while (n <= 9)
+	{
+		resultat = n * 9;
+	        n++;
+	}
 }
