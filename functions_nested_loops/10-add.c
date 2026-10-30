@@ -10,7 +10,7 @@ int add(int, int)
 
 	a;
 	b;
-	resultat = a+b;
+	resultat = a + b;
 
 	return (resultat);
 }
