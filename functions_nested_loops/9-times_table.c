@@ -13,6 +13,8 @@ void times_table(void)
 	while (n <= 9)
 	{
 		resultat = n * 9;
+		_putchar('2');
+		_putchar('7');
 	        n++;
 	}
 }
