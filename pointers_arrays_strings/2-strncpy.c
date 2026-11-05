@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strcpy - copies a string from source to destination
+ * _strncpy - copies a string from source to destination
  * @dest: destination buffer
  * @src: source string to copy
+ * @n: maximum number of characters to copy
  *
  * Return: pointer to the destination string
  */
