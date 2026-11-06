@@ -32,5 +32,7 @@ int _putchar(char c);
 char *string_toupper(char *);
 int _putchar(char c);
 char *cap_string(char *);
+int _putchar(char c);
+char *_memset(char *s, char b, unsigned int n);
 
 #endif
