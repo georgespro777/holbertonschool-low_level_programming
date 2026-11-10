@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -10,6 +11,7 @@ char *str_concat(char *s1, char *s2)
 {
 	unsigned int i, j, len1, len2;
 	char *result;
+
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -48,8 +50,4 @@ char *str_concat(char *s1, char *s2)
 	}
 	result[i] = '\0';
 	return (result);
-}
-
-
-
-  
+}  
