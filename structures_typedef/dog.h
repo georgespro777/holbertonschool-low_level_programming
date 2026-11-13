@@ -1,5 +1,5 @@
-#ifndef "dog.h"
-#define "dog.h"
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - A new type describing a dog.
@@ -7,11 +7,11 @@
  * @age: The age of the dog.
  * @owner: The owner of the dog.
  */
- struct dog
- {
-       name, type = char *
-       age, type = float
-       owner, type = char *
- };
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+};
 
 #endif
